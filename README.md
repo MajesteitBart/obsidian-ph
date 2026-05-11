@@ -39,3 +39,11 @@ Snippets can contain normal Markdown plus any number of placeholders:
 
 {{ph:Body}}
 ```
+
+## Coding agent install snippet
+
+Use this instruction with a coding agent to install the plugin into an Obsidian vault:
+
+```text
+Download the Obsidian plugin files `manifest.json`, `main.js`, and `styles.css` from this plugin's repository or release. Identify the correct Obsidian vault folder, then create the plugin directory `<vault>/.obsidian/plugins/placeholder-snippets/` if it does not already exist. Copy the downloaded files into that directory, preserving those exact filenames. After installation, tell the user to restart Obsidian or reload plugins, then enable `Placeholder Snippets` in Settings -> Community plugins.
+```
