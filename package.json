@@ -1,0 +1,16 @@
+{
+  "name": "placeholder-snippets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An Obsidian plugin for reusable snippets with clickable placeholders that can be replaced by typing.",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --platform=browser --format=cjs --external:obsidian --external:@codemirror/state --external:@codemirror/view --outfile=main.js"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.38.8"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  }
+}

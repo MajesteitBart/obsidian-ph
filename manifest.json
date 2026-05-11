@@ -1,0 +1,9 @@
+{
+  "id": "placeholder-snippets",
+  "name": "Placeholder Snippets",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Insert reusable snippets with clickable placeholders that can be replaced by typing.",
+  "author": "Local vault plugin",
+  "isDesktopOnly": false
+}
