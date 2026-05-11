@@ -50,3 +50,19 @@
 .placeholder-snippet-suggestion-preview {
   color: var(--text-muted);
 }
+
+/* Issue/development callouts used by the default Issue snippet. */
+.callout[data-callout="situation"] {
+  --callout-color: 183, 121, 31;
+  --callout-icon: lucide-map-pin;
+}
+
+.callout[data-callout="expectation"] {
+  --callout-color: 43, 108, 176;
+  --callout-icon: lucide-target;
+}
+
+.callout[data-callout="solution"] {
+  --callout-color: 47, 133, 90;
+  --callout-icon: lucide-lightbulb;
+}

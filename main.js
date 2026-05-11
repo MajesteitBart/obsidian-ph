@@ -20,6 +20,10 @@ var DEFAULT_SETTINGS = {
     {
       name: "Meeting follow-up",
       content: "## {{ph:Topic}}\n\n- Owner: {{ph:Name}}\n- Next step: {{ph:Action}}\n- Due: {{ph:Date}}"
+    },
+    {
+      name: "Issue",
+      content: "## Issue {{ph:ID}}\n\n> [!SITUATION]\n> {{ph:Situation}}\n\n> [!expectation]\n> {{ph:Expectation}}\n\n> [!solution]\n> {{ph:Solution}}\n\n"
     }
   ]
 };
