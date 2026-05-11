@@ -4,6 +4,9 @@ An Obsidian plugin for reusable snippets with clickable placeholders that can be
 
 This local Obsidian plugin adds Word-style placeholders for reusable snippets.
 
+![screenrecording](public/screenrecording.gif)
+
+
 ## Placeholder format
 
 Write placeholders as:
